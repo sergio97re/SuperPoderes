@@ -16,6 +16,7 @@ struct HeroesRowView: View {
             AsyncImage(url: URL(string: "\(hero.thumbnail.path)\(hero.thumbnail.extensionJpg)")) { image in
                 image.resizable()
                      .cornerRadius(20)
+                     .id(0)
             } placeholder: {
                 Image(systemName: "photo")
                     .resizable()
@@ -36,6 +37,7 @@ struct HeroesRowView: View {
                     .foregroundColor(.black)
                     .bold()
                     .padding([.top, .leading], 20)
+                    .id(1)
                 Spacer()
             }
 

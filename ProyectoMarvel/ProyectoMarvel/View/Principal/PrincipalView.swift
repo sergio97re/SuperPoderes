@@ -13,7 +13,7 @@ struct PrincipalView: View {
     var body: some View {
         switch viewModelHeros.status{
         case .loading:
-            Text("Cargando")
+            Text("Cargando datos")
         case .loaded:
             HeroesView()
         case .error(error: let errorString):

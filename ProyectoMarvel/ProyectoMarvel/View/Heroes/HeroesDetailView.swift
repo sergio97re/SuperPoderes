@@ -18,6 +18,7 @@ struct HeroesDetailView: View {
                 Text(hero.name)
                     .bold()
                     .font(.title)
+                    .id(0)
             }
             
             //Imagen del heroe
@@ -26,6 +27,7 @@ struct HeroesDetailView: View {
                     .resizable()
                     .clipShape(.rect(cornerRadius: 20))
                     .shadow(radius: 10, x: 5, y: 5)
+                    .id(1)
                 
             } placeholder: {
                 
@@ -39,6 +41,7 @@ struct HeroesDetailView: View {
                 .background(.ultraThinMaterial)
                 .clipShape(.rect(cornerRadius: 20))
                 .opacity(hero.description == "" ? 0:1)
+                .id(2)
             
             
             HStack{

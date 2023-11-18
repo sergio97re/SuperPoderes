@@ -17,6 +17,7 @@ struct SerieRowView: View {
                 image.resizable()
                      .cornerRadius(20)
                      .opacity(0.8)
+                     .id(0)
             } placeholder: {
                 Image(systemName: "photo")
                     .resizable()
@@ -34,6 +35,7 @@ struct SerieRowView: View {
                         .padding([.top, .leading], 20)
                         .background(.white)
                         .cornerRadius(20)
+                        .id(1)
                         
                     Spacer()
                 }
@@ -45,6 +47,10 @@ struct SerieRowView: View {
         .background(Color.black.opacity(0.5))
         .cornerRadius(20)
         .shadow(radius: 10)
+        
+        VStack{
+            Text(serie.description ?? "")
+        }
     }
 }
 
