@@ -16,6 +16,17 @@ Además, debajo, hemos añadido un botón que nos lleva al listado de Series don
 ![image](https://github.com/sergio97re/SuperPoderes/assets/126094274/d4e6ef64-721d-41ca-9bfa-e09fe1edc773)
 Aquí, hemos añadido la imagen, título y descripción de cada Serie. Además, al igual que en listado de Héroes, hemos añadido una barra de búsqueda para poder filtrar y buscar Series.
 
+Por otro lado, se nos pide hacer un Testing a la aplicación, con una cobertura mínima del 50%.
+Para ello, hemos realizado un test a los Modelos y ViewModels de Héroes y Series. Además, también hemos realizado test a las vistas de Detalle y RowView de Héroe y a la vista de RowView de Series:
+![image](https://github.com/sergio97re/SuperPoderes/assets/126094274/b2771f6d-51be-49a6-9776-f9e711353f59)
+![image](https://github.com/sergio97re/SuperPoderes/assets/126094274/4714d8f7-38eb-41f3-bfc0-b4afccb81c80)
+![image](https://github.com/sergio97re/SuperPoderes/assets/126094274/9a16a670-a82d-498f-b43c-15ee2eabfee4)
+
+Tras el Testing realizado, hemos conseguido un 60% de cobertura:
+![image](https://github.com/sergio97re/SuperPoderes/assets/126094274/c5a66a7d-5f91-4228-bb27-a496a5debdd8)
+
+
+
 
 
 
